@@ -1,0 +1,40 @@
+<html>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+<link href="https://unpkg.com/ionicons@4.2.4/dist/css/ionicons.min.css" rel="stylesheet">
+<link href='./assets/ind_styles.css' rel='stylesheet' type='text/css' />
+<head>
+    <meta charset="utf-8" />
+    <title>Tweet render</title>
+    <link rel="icon" href="./assets/images/AJ+_Ico.png">
+</head>
+
+<body>
+<div class="container">
+  <div class="cover">
+    <h1>Fetch any tweet out there.</h1>
+
+      <form class="flex-form"  action="/ajtweet" method="post">
+
+      <label for="name">
+        <i class="ion-logo-twitter"></i>
+      </label>
+
+      <input type="text" id="name" name="TwtId" placeholder="enter the copied twitter link  " />
+      <input type="submit" value="Fetch" >
+
+
+
+  </form>
+
+
+    <div id="madeby">
+      <span>
+        Made by <a href="https://www.facebook.com/eslam.amin.104" target="_blank">esso</a>
+      </span>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

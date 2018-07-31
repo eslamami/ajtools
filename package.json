@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "hunt tweet and Aj+ format it ",
   "main": "app.js",
+  "scripts": {
+    "start": "start",
+    "build": "build"
+},
   "dependencies": {
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
